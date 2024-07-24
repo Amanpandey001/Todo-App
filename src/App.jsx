@@ -2,7 +2,8 @@ import { useState, useEffect, useRef } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
-import Navbar from '../../../02/first-app/src/components/Navbar'
+import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 import { v4 as uuidv4 } from 'uuid';
 import { RiEditFill } from "react-icons/ri";
 import { MdDelete } from "react-icons/md";
@@ -107,6 +108,7 @@ function App() {
         </div>
 
       </main>
+      <Footer />
     </>
   )
 }
