@@ -1,8 +1,17 @@
-# React + Vite
+# TODO APP USING REACT
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## After Downloading, Open terminal and use
+```
+npm i
+```
+## command to download all modules needed, then use
+```
+npm run dev
+```
+## command to run the app in your pc
 
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## you can also use
+```
+npm run dev -- --host
+```
+## to run your command in your phone and pc both
